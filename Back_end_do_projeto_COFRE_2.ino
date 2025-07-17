@@ -9,15 +9,15 @@
 #define IN4 18 
 #define BUZZER_PIN 2
 
-#define ROW1 32
+#define ROW1 13
 #define ROW2 14
 #define ROW3 27
 #define ROW4 26
 
 #define COL1 25
 #define COL2 33
-#define COL3 23
-#define COL4 13
+#define COL3 32
+#define COL4 23
 
 // === LCD ===
 LiquidCrystal_I2C lcd(0x27, 16, 2);
